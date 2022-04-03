@@ -19,3 +19,6 @@ SELECT amt
     , '1234567890', '일이삼사오육칠팔구') v
 FROM (SELECT amt, LPAD(amt,16,'0') v from hangeul) h
 ;
+
+select ename, sal
+from emp;
